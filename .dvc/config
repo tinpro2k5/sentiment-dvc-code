@@ -2,3 +2,7 @@
     remote = dagshub
 ['remote "dagshub"']
     url = https://dagshub.com/letrungtin12052005/sentiment-dvc-data.dvc
+['remote "r2"']
+    url = s3://sentiment-dvc-data
+    endpointurl = https://eff3a8a8be79fb96dccd66219a0455ff.r2.cloudflarestorage.com
+    region = auto
